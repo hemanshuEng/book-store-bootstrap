@@ -1,5 +1,6 @@
 body {
     overflow-x: hidden;
+    position: relative;
 }
 
 .hamburger-menu {
@@ -67,17 +68,20 @@ body {
     z-index: 150;
     width: 100%;
 }
-.link-item{
+
+.link-item {
     font-size: 20px;
-    color:#eee;
+    color: #eee;
     border-bottom: 1px solid #eee;
 }
-.link-item:hover{
+
+.link-item:hover {
     color: #fff;
     border-bottom: 1px solid #fff;
     border-radius: 50% 50% 0 0;
-    background: rgba(0,0,0,.3);
+    background: rgba(0, 0, 0, .3);
 }
+
 /* Header */
 header {
     height: 100vh;
