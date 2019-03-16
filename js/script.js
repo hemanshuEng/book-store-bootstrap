@@ -3,7 +3,6 @@ $(document).ready(function () {
         $('.navigation').toggleClass('change');
     });
     lightbox.option({
-
         'wrapAround': true
     });
     $(window).scroll(function () {
